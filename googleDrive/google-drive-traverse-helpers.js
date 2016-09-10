@@ -65,7 +65,7 @@ function logAncestorsOfType(parentFolder, type){
   while (files.hasNext()) {
     file = files.next();
     if(file.getMimeType()===type){
-      Logger.log(ile.getName());
+      Logger.log(file.getName());
     }
   }
 }
